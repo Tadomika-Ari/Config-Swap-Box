@@ -1,0 +1,8 @@
+{
+    "name": "BarTopV1",
+	"author": "tadoma",
+	"origin": "nixos",
+	"preview": "~/Download/glados.png",
+	"wallpaperPath": "~/Pictures/Wallpaper",
+	"depedencie": "boolean"
+}
