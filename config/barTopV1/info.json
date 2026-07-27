@@ -3,6 +3,7 @@
 	"author": "tadoma",
 	"origin": "nixos",
 	"preview": "~/Download/glados.png",
+	"description": "test 12 12",
 	"wallpaperPath": "~/Pictures/Wallpaper",
 	"depedencie": "boolean"
 }

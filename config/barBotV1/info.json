@@ -3,6 +3,7 @@
 	"author": "tadoma",
 	"origin": "nixos",
 	"preview": "~/Download/glados.png",
+	"description": "test bot side bot side",
 	"wallpaperPath": "~/Pictures/Wallpaper",
 	"depedencie": "boolean"
 }
