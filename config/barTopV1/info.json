@@ -1,9 +1,9 @@
 {
     "name": "barTopV1",
-	"author": "tadoma",
+	"author": "tadomi",
 	"origin": "nixos",
 	"preview": "~/Download/glados.png",
-	"description": "test 12 12",
+	"description": "test with bar top and lockscreen widget",
 	"wallpaperPath": "~/Pictures/Wallpaper",
 	"depedencie": "boolean"
 }
