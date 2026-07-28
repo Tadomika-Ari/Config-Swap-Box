@@ -1,6 +1,7 @@
 {
     "name": "barBotV1",
 	"author": "tadoma",
+	"path": "config/barBotV1",
 	"origin": "nixos",
 	"preview": "~/Download/glados.png",
 	"description": "test bar bot and wallpaper change",

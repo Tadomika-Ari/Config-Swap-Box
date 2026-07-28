@@ -1,6 +1,7 @@
 {
     "name": "barTopV1",
 	"author": "tadomi",
+	"path": "config/barTopV1",
 	"origin": "nixos",
 	"preview": "~/Download/glados.png",
 	"description": "test with bar top and lockscreen widget",
