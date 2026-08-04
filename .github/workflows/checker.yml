@@ -23,12 +23,15 @@ jobs:
       - name: Show added files
         if: always()
         run: |
+          nb_found=0
           for file in ${{ steps.changed-files.outputs.added_files }}; do
             echo "Fichier ajouté : $file"
-            if [[ $file  == *"preview.png"]] then
+            if [[ "$file" == *"preview.png" ]]; then
               echo "Trouvé"
-            end
+              nb_found=nb_found+1
+            fi
           done
+          echo $nb_found
   check_info_json:
     runs-on: ubuntu-latest
     name: runs_tests
