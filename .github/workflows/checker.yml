@@ -30,7 +30,7 @@ jobs:
               echo "Trouvé"
               nb_found=$((nb_found + 1))
             fi
-            if [[ "$file" == *"info.png" ]]; then
+            if [[ "$file" == *"info.json" ]]; then
               echo "Trouvé"
               nb_found=$((nb_found + 1))
             fi
