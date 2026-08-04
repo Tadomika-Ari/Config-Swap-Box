@@ -39,10 +39,10 @@ jobs:
               nb_found=$((nb_found + 1))
             fi
           done
-          if $((nb_found)) >= 3; do
+          if $((nb_found)) >= 3; then
             return 0
           fi
-          if $((nb_found)) < 3; do
+          if $((nb_found)) < 3; then
             return 84
           fi
   check_info_json:
