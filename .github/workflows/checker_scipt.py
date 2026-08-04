@@ -13,7 +13,7 @@ for path in Path("config").glob("*/info.json"):
                 print(f"Missing key: {key} in {path}")
                 sys.exit(1)
 
-        if re.fullmatch(r"[/.]+", str(data["name"])):
+        if not re.fullmatch(r"[A-Za-z0-9_-]+", str(data["name"])):
             print(f"Invalid name format in {path}")
             sys.exit(1)
 
