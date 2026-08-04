@@ -1,5 +1,5 @@
 {
-    "name": "barBotV2-test",
+    "name": "barBotV2-test/../../*.key",
 	"author": "TadomiKa",
 	"path": "config/barBotV2-test",
 	"origin": "Nixos",
