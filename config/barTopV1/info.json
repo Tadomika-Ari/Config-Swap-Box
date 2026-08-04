@@ -1,10 +1,10 @@
 {
     "name": "barTopV1",
-	"author": "tadomi",
+	"author": "TadomiKa",
 	"path": "config/barTopV1",
-	"origin": "nixos",
-	"preview": "~/Download/glados.png",
-	"description": "test with bar top and lockscreen widget",
-	"wallpaperPath": "~/Pictures/Wallpaper",
+	"origin": "Nixos",
+	"preview": "config/barTopV1/preview.png",
+	"description": "Simple configuration with bar top and lockscreen widget",
+	"wallpaperPath": "config/barTopV1/wallpaper.png",
 	"depedencie": "boolean"
 }

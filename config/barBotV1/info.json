@@ -1,10 +1,10 @@
 {
     "name": "barBotV1",
-	"author": "tadoma",
+	"author": "TadomiKa",
 	"path": "config/barBotV1",
-	"origin": "nixos",
-	"preview": "~/Download/glados.png",
-	"description": "test bar bot and wallpaper change",
-	"wallpaperPath": "~/Pictures/Wallpaper",
+	"origin": "Nixos",
+	"preview": "config/barBotV1/preview.png",
+	"description": "Configuration with a simple bar botside screen",
+	"wallpaperPath": "config/barBotV1/wallpaper.png",
 	"depedencie": "boolean"
 }
