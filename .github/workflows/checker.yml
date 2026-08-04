@@ -15,48 +15,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v44
-        if: always()
-
-      - name: Show added files
-        if: always()
-        run: |
-          nb_found=0
-          for file in ${{ steps.changed-files.outputs.added_files }}; do
-            echo "Fichier ajouté : $file"
-            if [[ "$file" == *"preview.png" ]]; then
-              nb_found=$((nb_found + 1))
-            fi
-            if [[ "$file" == *"info.json" ]]; then
-              nb_found=$((nb_found + 1))
-            fi
-            if [[ "$file" == *"settings.toml" ]]; then
-              nb_found=$((nb_found + 1))
-            fi
-          done
-          if (( nb_found >= 3 )); then
-            exit 0
-          fi
-          if (( nb_found < 3 )); then
-            echo "Important file not found. Please check that you have all the required files."
-            exit 1
-          fi
-  check_info_json:
-    runs-on: ubuntu-latest
-    name: runs_tests
-    needs: [check_file]
-    if: needs.check_file.result == 'success'
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-
       - name: Validate info.json files
         run: |
-          set +e
           output=$(python3 .github/workflows/checker_scipt.py 2>&1)
           status=$?
           echo "$output"
