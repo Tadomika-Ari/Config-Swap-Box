@@ -39,11 +39,11 @@ jobs:
               nb_found=$((nb_found + 1))
             fi
           done
-          if $((nb_found)) >= 3; then
-            return 0
+          if (( nb_found >= 3 )); then
+            exit 0
           fi
-          if $((nb_found)) < 3; then
-            return 84
+          if (( nb_found < 3 )); then
+            exit 84
           fi
   check_info_json:
     runs-on: ubuntu-latest
