@@ -1,0 +1,36 @@
+name: Checker Config
+
+on:
+  pull_request:
+    branches:
+      - main
+
+env:
+
+jobs:
+  check_file:
+    runs-on: ubuntu-latest
+    name: check file
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: check_file
+        uses: tj-actions/changed-files@v44
+        if: always()
+        run: |
+          for file in ${{ steps.changed-files.outputs.added_files }}; do
+            echo "Fichier ajouté : $file"
+          done
+  check_info_json:
+    runs-on: ubuntu-latest
+    name: runs_tests
+    needs: [check_file]
+    if: needs.check_file.result == 'success'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
