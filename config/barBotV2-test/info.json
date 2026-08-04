@@ -1,0 +1,10 @@
+{
+    "name": "barBotV2-test",
+	"author": "TadomiKa",
+	"path": "config/barBotV2-test",
+	"origin": "Nixos",
+	"preview": "config/barBotV1/preview.png",
+	"description": "Configuration with a simple bar botside screen",
+	"wallpaperPath": "config/barBotV1/wallpaper.png",
+	"depedencie": "boolean"
+}
