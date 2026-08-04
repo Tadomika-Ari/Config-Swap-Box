@@ -15,8 +15,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: check_file
+      - name: Get changed files
+        id: changed-files
         uses: tj-actions/changed-files@v44
+        if: always()
+
+      - name: Show added files
         if: always()
         run: |
           for file in ${{ steps.changed-files.outputs.added_files }}; do
