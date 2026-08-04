@@ -28,7 +28,7 @@ jobs:
             echo "Fichier ajouté : $file"
             if [[ "$file" == *"preview.png" ]]; then
               echo "Trouvé"
-              nb_found=nb_found+1
+              nb_found=$((nb_found + 1))
             fi
           done
           echo $nb_found
