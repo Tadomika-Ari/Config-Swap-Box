@@ -40,7 +40,8 @@ jobs:
             exit 0
           fi
           if (( nb_found < 3 )); then
-            exit 84
+            echo "Important file not found. Please check that you have all the required files."
+            exit 1
           fi
   check_info_json:
     runs-on: ubuntu-latest
