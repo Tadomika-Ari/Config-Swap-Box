@@ -30,8 +30,21 @@ jobs:
               echo "Trouvé"
               nb_found=$((nb_found + 1))
             fi
+            if [[ "$file" == *"info.png" ]]; then
+              echo "Trouvé"
+              nb_found=$((nb_found + 1))
+            fi
+            if [[ "$file" == *"settings.toml" ]]; then
+              echo "Trouvé"
+              nb_found=$((nb_found + 1))
+            fi
           done
-          echo $nb_found
+          if $((nb_found)) >= 3; do
+            return 0
+          fi
+          if $((nb_found)) < 3; do
+            return 84
+          fi
   check_info_json:
     runs-on: ubuntu-latest
     name: runs_tests
