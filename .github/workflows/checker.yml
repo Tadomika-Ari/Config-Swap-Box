@@ -25,6 +25,9 @@ jobs:
         run: |
           for file in ${{ steps.changed-files.outputs.added_files }}; do
             echo "Fichier ajouté : $file"
+            if [[ $file  == *"preview.png"]] then
+              echo "Trouvé"
+            end
           done
   check_info_json:
     runs-on: ubuntu-latest
