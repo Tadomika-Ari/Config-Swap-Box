@@ -4,7 +4,7 @@
 	"path": "config/barBotV1",
 	"origin": "Nixos",
 	"preview": "config/barBotV1/preview.png",
-	"description": "Configuration with a simple bar botside screen",
+	"description": "Layout with a single screen and a bar at the bottom",
 	"wallpaperPath": "config/barBotV1/wallpaper.png",
 	"depedencie": "boolean"
 }
