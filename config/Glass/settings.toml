@@ -1,0 +1,1115 @@
+[accessibility]
+high_contrast = false
+ui_scale = 1.0
+
+[audio]
+enable_overdrive = false
+enable_sounds = true
+notification_sound = ""
+sound_volume = 1.0
+volume_change_sound = ""
+
+[backdrop]
+blur_intensity = 0.5
+enabled = false
+tint_intensity = 0.30000001192092896
+
+[bar]
+order = [ "edgebar" ]
+
+    [bar.edgebar]
+    auto_hide = false
+    background_opacity = 0.59999996423721313
+    border = "outline"
+    border_width = 0.0
+    capsule = true
+    capsule_fill = "surface_variant"
+    capsule_group = []
+    capsule_opacity = 0.59999996423721313
+    capsule_padding = 6.0
+    capsule_radius = 4.0
+    capsule_thickness = 0.75999999046325684
+    center = [ "clock" ]
+    concave_edge_corners = true
+    contact_shadow = false
+    enabled = true
+    end = [ "tray", "notifications", "bluetooth", "network", "volume", "brightness", "battery", "session" ]
+    font_weight = 500
+    hover_highlight = true
+    layer = "top"
+    margin_edge = 0
+    margin_ends = 0
+    margin_opposite_edge = 0
+    padding = 14
+    panel_overlap = 0
+    position = "top"
+    radius = 14
+    radius_bottom_left = 14
+    radius_bottom_right = 14
+    radius_top_left = 0
+    radius_top_right = 0
+    reserve_space = true
+    scale = 1.0
+    shadow = false
+    show_on_workspace_switch = true
+    smart_auto_hide = false
+    start = [ "launcher", "workspaces", "btn_3", "media", "active_window" ]
+    thickness = 28
+    widget_spacing = 6
+
+        [bar.edgebar.dead_zone.actions]
+        left = "panel-toggle launcher"
+
+        [bar.edgebar.monitor."Samsung Electric Company SMB2240W HMBB400925 (HDMI-A-1)"]
+        auto_hide = false
+        background_opacity = 0.59999996423721313
+        border = "outline"
+        border_width = 0.0
+        capsule = true
+        capsule_fill = "surface_variant"
+        capsule_group = []
+        capsule_opacity = 0.59999996423721313
+        capsule_padding = 6.0
+        capsule_radius = 4.0
+        capsule_thickness = 0.75999999046325684
+        center = [ "clock" ]
+        concave_edge_corners = true
+        contact_shadow = false
+        enabled = true
+        end = [ "tray", "notifications", "network", "bluetooth", "volume", "brightness", "battery", "session" ]
+        font_weight = 500
+        hover_highlight = true
+        layer = "top"
+        margin_edge = 0
+        margin_ends = 0
+        margin_opposite_edge = 0
+        match = "Samsung Electric Company SMB2240W HMBB400925 (HDMI-A-1)"
+        padding = 14
+        panel_overlap = 0
+        radius = 14
+        radius_bottom_left = 14
+        radius_bottom_right = 14
+        radius_top_left = 0
+        radius_top_right = 0
+        reserve_space = true
+        scale = 1.0
+        shadow = false
+        show_on_workspace_switch = true
+        smart_auto_hide = false
+        start = [ "launcher", "workspaces", "btn_4" ]
+        thickness = 30
+        widget_spacing = 6
+
+            [bar.edgebar.monitor."Samsung Electric Company SMB2240W HMBB400925 (HDMI-A-1)".dead_zone.actions]
+            left = "panel-toggle launcher"
+
+[battery]
+warning_threshold = 10
+
+    [battery.device."/org/freedesktop/UPower/devices/battery_ps_controller_battery_41o42o5eoa0obbo63"]
+    warning_threshold = 15
+
+[brightness]
+enable_ddcutil = true
+ignore_mmids = []
+minimum_brightness = 0.0099999997764825821
+sync_all_monitors = false
+
+[calendar]
+enabled = false
+refresh_minutes = 15
+
+[control_center]
+hidden_tabs = [ "screen-time" ]
+show_session_button = true
+show_shortcut_labels = true
+sidebar = "compact"
+sidebar_section = "compact"
+width = 700
+
+    [control_center.calendar]
+    event_date_format = "%A %e %B"
+    event_time_format = "%H:%M"
+    show_events_card = true
+    show_week_numbers = false
+
+    [[control_center.shortcuts]]
+    type = "wifi"
+
+    [[control_center.shortcuts]]
+    type = "bluetooth"
+
+    [[control_center.shortcuts]]
+    type = "caffeine"
+
+    [[control_center.shortcuts]]
+    type = "dark_mode"
+
+    [[control_center.shortcuts]]
+    type = "notification"
+
+    [[control_center.shortcuts]]
+    type = "clipboard"
+
+[desktop_widgets]
+enabled = true
+schema_version = 1
+widget_order = [ "desktop-widget-0000000000000023", "desktop-widget-0000000000000024", "desktop-widget-0000000000000046" ]
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000023]
+    box_height = 315.28494262695312
+    box_width = 2558.22509765625
+    cx = 1280.0
+    cy = 1325.89501953125
+    enabled = true
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = -0.0044920742511749268
+    type = "audio_visualizer"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000023.settings]
+        background = true
+        background_color = "surface_variant"
+        background_opacity = 0.0
+        background_padding = 0
+        background_radius = 0
+        bands = 36
+        centered = false
+        color_1 = "primary"
+        color_2 = "tertiary"
+        mirrored = true
+        reversed = true
+        show_when_idle = false
+
+    [desktop_widgets.widget.desktop-widget-0000000000000024]
+    box_height = 71.124198913574219
+    box_width = 467.21585083007812
+    cx = 1280.0
+    cy = 486.3779296875
+    enabled = true
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = -0.0051198899745941162
+    type = "clock"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000024.settings]
+        background = true
+        background_color = "surface_variant"
+        background_opacity = 0.59999999999999998
+        background_padding = 4
+        background_radius = 10
+        center_text = true
+        circle = true
+        clock_style = "digital"
+        color = "on_surface_variant"
+        font_family = ""
+        format = "{:%d %B %Y%n-   %-I:%M %p   -}"
+        shadow = false
+        timezone = ""
+
+    [desktop_widgets.widget.desktop-widget-0000000000000046]
+    box_height = 110.04571533203125
+    box_width = 464.00234985351562
+    cx = 1280.0
+    cy = 384.0
+    enabled = true
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = -0.0026193559169769287
+    type = "clock"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000046.settings]
+        background = true
+        background_color = "surface_variant"
+        background_opacity = 0.59999999999999998
+        background_padding = 4
+        background_radius = 10
+        center_text = true
+        circle = true
+        clock_style = "digital"
+        color = "on_surface_variant"
+        font_family = ""
+        format = "{:%^A}"
+        shadow = true
+        timezone = ""
+
+[dock]
+active_monitor_only = false
+active_opacity = 1.0
+active_scale = 1.0
+auto_hide = false
+background_opacity = 0.59999996423721313
+border = "outline"
+border_width = 0.0
+concave_edge_corners = true
+cross_axis_padding = 8
+enabled = true
+icon_size = 28
+inactive_opacity = 0.85000002384185791
+inactive_scale = 0.85000002384185791
+item_spacing = 6
+launcher_custom_image = ""
+launcher_custom_image_colorize = false
+launcher_icon = "grid-dots"
+launcher_position = "end"
+layer = "top"
+magnification = true
+magnification_scale = 1.4500000476837158
+main_axis_padding = 16
+margin_edge = 0
+margin_ends = 0
+monitors = []
+pinned = []
+position = "bottom"
+radius = 10
+radius_bottom_left = 10
+radius_bottom_right = 10
+radius_top_left = 10
+radius_top_right = 10
+reserve_space = false
+shadow = false
+show_dots = false
+show_instance_count = true
+show_running = true
+smart_auto_hide = true
+
+[hooks]
+battery_charging = []
+battery_discharging = []
+battery_percentage_changed = []
+battery_plugged = []
+bluetooth_disabled = []
+bluetooth_enabled = []
+colors_changed = []
+logging_out = []
+power_profile_changed = []
+rebooting = []
+session_locked = []
+session_unlocked = []
+shutting_down = []
+started = []
+theme_mode_changed = []
+wallpaper_changed = []
+wifi_disabled = []
+wifi_enabled = []
+
+[hot_corners]
+delay_ms = 0
+enabled = false
+
+    [hot_corners.bottom_left]
+    action = "none"
+    command = ""
+
+    [hot_corners.bottom_right]
+    action = "none"
+    command = ""
+
+    [hot_corners.top_left]
+    action = "none"
+    command = ""
+
+    [hot_corners.top_right]
+    action = "none"
+    command = ""
+
+[idle]
+behavior_order = [ "lock", "screen-off", "lock-and-suspend" ]
+pre_action_fade_seconds = 0.0
+
+    [idle.behavior.lock]
+    action = "lock"
+    command = ""
+    enabled = true
+    locked_timeout = 0.0
+    resume_command = ""
+    timeout = 600.0
+
+    [idle.behavior.lock-and-suspend]
+    action = "lock_and_suspend"
+    command = ""
+    enabled = false
+    locked_timeout = 0.0
+    resume_command = ""
+    timeout = 900.0
+
+    [idle.behavior.screen-off]
+    action = "screen_off"
+    command = ""
+    enabled = false
+    locked_timeout = 0.0
+    resume_command = ""
+    timeout = 660.0
+
+[keybinds]
+cancel = [ "Escape" ]
+copy = [ "Ctrl+c" ]
+delete = [ "Delete" ]
+down = [ "Down" ]
+left = [ "Left" ]
+right = [ "Right" ]
+save = [ "Ctrl+s" ]
+tab_next = [ "Tab" ]
+tab_previous = [ "Shift+ISO_Left_Tab" ]
+up = [ "Up" ]
+validate = [ "Return", "KP_Enter", "space" ]
+
+[location]
+address = "Lahore, Pakistan"
+auto_locate = false
+custom_schedule = true
+sunrise = "06:00"
+sunset = "18:00"
+
+[lockscreen]
+allow_empty_password = false
+blur_intensity = 0.5
+blurred_desktop = false
+enabled = true
+fingerprint = true
+lock_before_suspend = true
+monitors = []
+tint_intensity = 0.30000001192092896
+wallpaper = ""
+
+[lockscreen_widgets]
+enabled = true
+schema_version = 2
+widget_order = [
+    "lockscreen-widget-0000000000000008",
+    "lockscreen-widget-0000000000000006",
+    "lockscreen-widget-0000000000000004",
+    "lockscreen-widget-0000000000000003",
+    "lockscreen-login-box@HDMI-A-1",
+    "lockscreen-login-box@DP-3",
+    "lockscreen-widget-0000000000000001",
+    "lockscreen-widget-0000000000000002",
+    "lockscreen-widget-0000000000000005",
+    "lockscreen-widget-0000000000000007"
+]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = false
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-3"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 1280.0
+    cy = 1264.0
+    enabled = true
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-3".settings]
+        background_color = "surface_variant"
+        background_opacity = 1.0
+        background_radius = 6.0
+        center_password_text = true
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1"]
+    box_height = 196.0
+    box_width = 720.0
+    cx = 617.5
+    cy = 1785.9998779296875
+    enabled = true
+    output = "HDMI-A-1"
+    placement_height = 1976.0
+    placement_width = 1235.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1".settings]
+        background_radius = 6.0
+        center_password_text = false
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000001]
+    box_height = 107.0
+    box_width = 500.0
+    cx = 1280.0
+    cy = 272.83657836914062
+    enabled = true
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000001.settings]
+        background = true
+        background_color = "surface_variant"
+        background_opacity = 0.59999999999999998
+        background_radius = 10
+        color = "primary"
+        font_family = ""
+        format = "%^A"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000002]
+    box_height = 68.6666259765625
+    box_width = 502.816162109375
+    cx = 1280.0
+    cy = 378.33331298828125
+    enabled = true
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000002.settings]
+        background = true
+        background_color = "surface_variant"
+        background_opacity = 0.59999999999999998
+        background_radius = 10
+        color = "tertiary"
+        font_family = ""
+        format = "{:%d %B %Y%n-   %-I:%M %p   -}"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000003]
+    box_height = 111.0
+    box_width = 504.0
+    cx = 1293.0
+    cy = 283.83657836914062
+    enabled = false
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "label"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000003.settings]
+        background_color = "primary"
+        background_opacity = 1.0
+        background_radius = 4
+        title = ""
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000004]
+    box_height = 75.0
+    box_width = 506.0
+    cx = 1292.99609375
+    cy = 390.5
+    enabled = false
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "label"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000004.settings]
+        background_color = "tertiary"
+        background_opacity = 1.0
+        background_radius = 4
+        title = ""
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000005]
+    box_height = 105.0
+    box_width = 237.0
+    cx = 1147.5
+    cy = 479.5
+    enabled = true
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "volume"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000005.settings]
+        background_color = "surface_variant"
+        background_opacity = 0.59999999999999998
+        background_radius = 10
+        fill_color = "secondary"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000006]
+    box_height = 110.0
+    box_width = 242.0
+    cx = 1154.99609375
+    cy = 499.0
+    enabled = false
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "label"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000006.settings]
+        background_color = "secondary"
+        background_opacity = 1.0
+        background_radius = 4
+        title = ""
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000007]
+    box_height = 101.7933349609375
+    box_width = 247.314697265625
+    cx = 1408.6573486328125
+    cy = 478.10333251953125
+    enabled = true
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "sysmon"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000007.settings]
+        background_color = "surface_variant"
+        background_opacity = 0.59999999999999998
+        background_padding = 0
+        background_radius = 10
+        color = "secondary"
+        display = "graph"
+        gauge_layout = "horizontal"
+        stat = "cpu_usage"
+        stat2 = "cpu_temp"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000008]
+    box_height = 108.0
+    box_width = 255.99609375
+    cx = 1419.998046875
+    cy = 500.0
+    enabled = false
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "label"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000008.settings]
+        background_color = "secondary"
+        background_opacity = 1.0
+        background_radius = 4
+        title = ""
+
+[nightlight]
+enabled = false
+force = false
+temperature_day = 6500
+temperature_night = 5100
+
+[notification]
+background_opacity = 0.97000002861022949
+border = true
+collapse_on_dismiss = true
+enable_daemon = true
+history_retention_hours = 0
+layer = "top"
+max_visible = 0
+monitors = []
+offset_x = 20
+offset_y = 8
+position = "top_right"
+scale = 1.0
+show_actions = true
+show_app_name = true
+
+[osd]
+background_opacity = 0.97000002861022949
+border = true
+enabled = true
+monitors = []
+offset_x = 20
+offset_y = 8
+orientation = "horizontal"
+position = "top_center"
+position_vertical = "top_center"
+scale = 1.0
+
+    [osd.kinds]
+    bluetooth = true
+    brightness = true
+    caffeine = true
+    dnd = true
+    keyboard_backlight = true
+    keyboard_layout = true
+    lock_keys = true
+    media = true
+    nightlight = true
+    power_profile = true
+    privacy = true
+    volume = true
+    volume_input = true
+    volume_output = true
+    wifi = true
+
+[plugin_settings."ezequiel/mango_layouts"]
+panel_open_near_click = true
+panel_placement = "attached"
+panel_position = "auto"
+
+[plugins]
+auto_update = "all"
+enabled = [ "ezequiel/mango_layouts", "tadomika_ari/config-swap" ]
+
+    [[plugins.source]]
+    enabled = true
+    kind = "git"
+    location = "https://github.com/noctalia-dev/community-plugins"
+    name = "community"
+
+    [[plugins.source]]
+    enabled = true
+    kind = "git"
+    location = "https://github.com/noctalia-dev/official-plugins"
+    name = "official"
+
+[shell]
+app_icon_color = "secondary"
+app_icon_colorize = true
+avatar_path = "/home/johnny/Pictures/Wallpapers/wallhaven-3lyrvy.png"
+button_borders = true
+card_borders = true
+clipboard_auto_paste = "auto"
+clipboard_confirm_clear_history = true
+clipboard_enabled = true
+clipboard_history_max_entries = 100
+clipboard_image_action_command = ""
+clipboard_keep_from_closed_apps = true
+corner_radius_scale = 1.0
+date_format = "%A, %x"
+disable_mipmaps = false
+external_ip_enabled = false
+font_family = "0xProto Nerd Font Mono"
+input_borders = true
+lang = "en"
+launch_apps_as_systemd_services = false
+launch_apps_custom_command = ""
+niri_overview_type_to_launch_enabled = false
+offline_mode = false
+password_style = "random"
+polkit_agent = true
+popup_borders = true
+popup_shadows = false
+screen_time_enabled = false
+settings_show_advanced = true
+settings_window_translucent = true
+setup_wizard_enabled = true
+shared_gl_context = true
+show_location = false
+telemetry_enabled = false
+time_format = "{:%-I:%M %p}"
+
+    [shell.animation]
+    enabled = true
+    speed = 1.2000000476837158
+
+    [shell.greeter_sync]
+    auto_sync = false
+
+    [shell.keyboard_layout]
+
+    [shell.launcher]
+    app_grid = false
+    auto_paste = "auto"
+    categories = true
+    compact = false
+    fetch_exchange_rates = true
+    pinned = []
+    provider_prefix = "/"
+    show_app_actions = false
+    show_app_origin_indicator = true
+    show_icons = true
+    sort_by_usage = true
+
+        [shell.launcher.dmenu]
+
+    [shell.mpris]
+    blacklist = []
+
+    [shell.panel]
+    borders = false
+    clipboard_placement = "attached"
+    clipboard_position = "auto"
+    control_center_placement = "attached"
+    control_center_position = "auto"
+    floating_layer = "overlay"
+    floating_offset = 15
+    launcher_placement = "attached"
+    launcher_position = "auto"
+    list_item_background = false
+    open_near_click_clipboard = true
+    open_near_click_control_center = true
+    open_near_click_launcher = true
+    open_near_click_session = false
+    open_near_click_wallpaper = true
+    polkit_placement = "floating"
+    polkit_position = "center"
+    session_placement = "attached"
+    session_position = "auto"
+    shadow = false
+    transparency_mode = "glass"
+    wallpaper_placement = "attached"
+    wallpaper_position = "bottom_center"
+
+    [shell.privacy]
+    cam_filter_regex = ""
+    mic_filter_regex = ""
+    screen_filter_regex = ""
+
+    [shell.screen_corners]
+    enabled = true
+    size = 15
+
+    [shell.screenshot]
+    confirm_region = false
+    copy_to_clipboard = true
+    directory = ""
+    filename_pattern = ""
+    freeze_screen = true
+    pipe_command = ""
+    pipe_to_command = false
+    remember_last_region = false
+    save_to_file = true
+    show_cursor = false
+
+    [shell.session]
+    grid = false
+    grid_columns = 3
+    show_shortcuts = true
+
+        [shell.session.power]
+
+        [[shell.session.actions]]
+        action = "lock"
+        command = ""
+        countdown_seconds = 0.0
+        enabled = true
+        glyph = ""
+        label = ""
+        shortcut = "1"
+        variant = "default"
+
+        [[shell.session.actions]]
+        action = "logout"
+        command = ""
+        countdown_seconds = 0.0
+        enabled = true
+        glyph = ""
+        label = ""
+        shortcut = "2"
+        variant = "default"
+
+        [[shell.session.actions]]
+        action = "suspend"
+        command = ""
+        countdown_seconds = 0.0
+        enabled = false
+        glyph = ""
+        label = ""
+        shortcut = "3"
+        variant = "default"
+
+        [[shell.session.actions]]
+        action = "reboot"
+        command = ""
+        countdown_seconds = 0.0
+        enabled = true
+        glyph = ""
+        label = ""
+        shortcut = "4"
+        variant = "default"
+
+        [[shell.session.actions]]
+        action = "shutdown"
+        command = ""
+        countdown_seconds = 0.0
+        enabled = true
+        glyph = ""
+        label = ""
+        shortcut = "5"
+        variant = "destructive"
+
+    [shell.shadow]
+    alpha = 0.55000001192092896
+    direction = "down_right"
+
+[storage]
+key_file = ""
+key_source = "secret-service"
+
+[system.monitor]
+cpu_freq_activity_threshold = 2.5
+cpu_freq_critical_threshold = 4.5
+cpu_poll_seconds = 2.0
+cpu_temp_activity_threshold = 60.0
+cpu_temp_critical_threshold = 85.0
+cpu_temp_sensor_path = ""
+cpu_usage_activity_threshold = 50.0
+cpu_usage_critical_threshold = 90.0
+disk_free_activity_threshold = 80.0
+disk_free_critical_threshold = 95.0
+disk_free_pct_activity_threshold = 80.0
+disk_free_pct_critical_threshold = 95.0
+disk_poll_seconds = 10.0
+disk_used_activity_threshold = 80.0
+disk_used_critical_threshold = 95.0
+disk_used_pct_activity_threshold = 80.0
+disk_used_pct_critical_threshold = 95.0
+enabled = true
+gpu_poll_seconds = 5.0
+gpu_temp_activity_threshold = 60.0
+gpu_temp_critical_threshold = 85.0
+gpu_usage_activity_threshold = 50.0
+gpu_usage_critical_threshold = 95.0
+gpu_vram_activity_threshold = 50.0
+gpu_vram_critical_threshold = 90.0
+memory_poll_seconds = 2.0
+net_rx_activity_threshold = 1.0
+net_rx_critical_threshold = 50.0
+net_tx_activity_threshold = 1.0
+net_tx_critical_threshold = 50.0
+network_poll_seconds = 3.0
+ram_pct_activity_threshold = 60.0
+ram_pct_critical_threshold = 90.0
+swap_pct_activity_threshold = 20.0
+swap_pct_critical_threshold = 80.0
+
+[theme]
+builtin = "Gruvbox"
+community_palette = "ADW"
+custom_palette = "faithful"
+mode = "auto"
+pure_black_dark = false
+source = "wallpaper"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "alacritty", "btop", "cava", "gtk3", "gtk4", "kcolorscheme", "kitty", "mango", "qt" ]
+    community_ids = [
+        "tauon",
+        "zen-browser",
+        "discord",
+        "libreoffice",
+        "micro",
+        "heroiclauncher",
+        "steam",
+        "fuzzel",
+        "fastfetch",
+        "obs",
+        "papirus-icons",
+        "yazi"
+    ]
+    enable_builtin_templates = true
+    enable_community_templates = true
+
+[wallpaper]
+directory = "/home/johnny/Pictures/Wallpapers"
+directory_dark = ""
+directory_light = ""
+edge_smoothness = 0.14999999105930328
+enabled = true
+fill_color = ""
+fill_mode = "span"
+per_monitor_directories = false
+transition = [ "disc" ]
+transition_duration = 2000.0
+transition_on_startup = true
+
+    [wallpaper.automation]
+    enabled = false
+    interval_seconds = 1800
+    order = "random"
+    recursive = true
+
+    [wallpaper.monitor.DP-3]
+    directory = "/home/johnny/Pictures/monitor-theme/m1/dark"
+    directory_dark = "/home/johnny/Pictures/monitor-theme/m1/dark"
+    directory_light = "/home/johnny/Pictures/monitor-theme/m1/light"
+    match = "DP-3"
+
+    [wallpaper.monitor.HDMI-A-1]
+    directory = "/home/johnny/Pictures/monitor-theme/m2/dark"
+    directory_dark = "/home/johnny/Pictures/monitor-theme/m2/dark"
+    directory_light = "/home/johnny/Pictures/monitor-theme/m2/light"
+    match = "HDMI-A-1"
+
+[weather]
+effects = true
+enabled = true
+refresh_minutes = 30
+unit = "metric"
+
+[widget.active_window]
+capsule = true
+icon_size = 14.0
+max_length = 260.0
+min_length = 80.0
+title_scroll = "none"
+type = "active_window"
+
+[widget.bluetooth]
+capsule = true
+type = "bluetooth"
+
+[widget.bongocat]
+script = "scripts/bongocat.lua"
+type = "scripted"
+
+[widget.brightness]
+capsule = true
+type = "brightness"
+
+[widget.btn]
+capsule = true
+color = "tertiary"
+scroll_repeat = "steps"
+type = "ezequiel/mango_layouts:btn"
+
+[widget.btn_2]
+type = "ezequiel/mango_layouts:btn"
+
+[widget.btn_3]
+capsule = true
+type = "ezequiel/mango_layouts:btn"
+
+[widget.btn_4]
+color = "tertiary"
+type = "ezequiel/mango_layouts:btn"
+
+[widget.cat]
+type = "noctalia/bongocat:cat"
+
+[widget.clipboard]
+icon_color = "secondary"
+type = "clipboard"
+
+[widget.clock]
+capsule = true
+format = "{:%-I:%M %p}"
+scale = 1.2000000000000002
+tooltip_format = "{:%-I:%M %p  %a, %d %b %Y}"
+type = "clock"
+vertical_format = "{:%I %M %p}"
+
+[widget.control-center]
+glyph = "activity"
+type = "control-center"
+
+[widget.cpu]
+stat = "cpu_usage"
+type = "sysmon"
+
+[widget.date]
+format = "{:%a %d %b}"
+type = "clock"
+
+[widget.input_volume]
+device = "input"
+type = "volume"
+
+[widget.keyboard_layout]
+hide_when_single_layout = false
+type = "keyboard_layout"
+
+[widget.launcher]
+capsule = true
+capsule_foreground = "surface"
+color = "on_surface"
+glyph = "category"
+type = "launcher"
+
+[widget.lock_keys]
+display = "short"
+hide_when_off = false
+show_caps_lock = true
+show_num_lock = true
+show_scroll_lock = false
+type = "lock_keys"
+
+[widget.media]
+art_size = 16.0
+capsule = true
+hide_when_no_media = true
+max_length = 220.0
+min_length = 80.0
+scale = 0.95000000000000007
+title_scroll = "on_hover"
+type = "media"
+
+[widget.network]
+capsule = true
+type = "network"
+
+[widget.network_rx]
+stat = "net_rx"
+type = "sysmon"
+
+[widget.network_tx]
+stat = "net_tx"
+type = "sysmon"
+
+[widget.notifications]
+capsule = true
+type = "notifications"
+
+[widget.output_volume]
+device = "output"
+type = "volume"
+
+[widget.ram]
+stat = "ram_used"
+type = "sysmon"
+
+[widget.session]
+capsule = true
+type = "session"
+
+[widget.spacer]
+interactive = false
+type = "spacer"
+
+[widget.temp]
+stat = "cpu_temp"
+type = "sysmon"
+
+[widget.tray]
+color = "primary"
+icon_color = "primary"
+type = "tray"
+
+[widget.volume]
+capsule = true
+type = "volume"
+
+[widget.weather]
+color = "primary"
+icon_color = "primary"
+type = "weather"
+
+[widget.workspaces]
+anchor = true
+capsule = true
+capsule_radius = "auto"
+empty_color = "outline"
+focused_color = "on_surface"
+occupied_color = "on_surface_variant"
+pill_scale = 0.75
+scroll_repeat = "steps"
+show_labels = false
+type = "workspaces"
