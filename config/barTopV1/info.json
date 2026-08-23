@@ -6,5 +6,5 @@
 	"preview": "config/barTopV1/preview.png",
 	"description": "Simple configuration with bar top and lockscreen widget",
 	"wallpaperPath": "config/barTopV1/wallpaper.png",
-	"depedencie": "boolean"
+	"depedencie": false
 }
