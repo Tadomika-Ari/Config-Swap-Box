@@ -1,7 +1,7 @@
 {
     "name": "barBotV1",
 	"author": "TadomiKa",
-	"path": "config/barBotV1",
+	"path": "~/config/barBotV1",
 	"origin": "Nixos",
 	"preview": "config/barBotV1/preview.png",
 	"description": "Configuration with a simple bar botside screen",
